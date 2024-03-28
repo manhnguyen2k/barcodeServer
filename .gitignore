@@ -12,7 +12,10 @@
 /build
 
 # misc
+<<<<<<< HEAD
 .env
+=======
+>>>>>>> fc9b568 (v1)
 .DS_Store
 .env.local
 .env.development.local
