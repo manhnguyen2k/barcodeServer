@@ -51,7 +51,7 @@ app.use((error, req, res, next) => {
 //mongoose.set('debug', true);
 //mongoose.set('debug', { color: true });
 
-mongoose.connect(`${MONGO_URI}/${MONGO_DATABASE}`, {
+mongoose.connect(`${MONGO_URI}`, {
     maxPoolSize: 50
 })
     .then(result => {
@@ -60,7 +60,7 @@ mongoose.connect(`${MONGO_URI}/${MONGO_DATABASE}`, {
             console.log(`Server is running on PORT ${PORT}`);
         });
     }).catch(err => {
-        console.log(`${MONGO_URI}/${MONGO_DATABASE}`);
+        console.log(`${MONGO_URI}`);
         console.log('Fail to connect to database');
     });
 /**
