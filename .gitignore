@@ -4,7 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
+<<<<<<< HEAD
 /.env
+=======
+
+>>>>>>> 77539b9a704138856a84825018df5f97d8c72e0f
 # testing
 /coverage
 
@@ -13,9 +17,13 @@
 
 # misc
 <<<<<<< HEAD
+<<<<<<< HEAD
 .env
 =======
 >>>>>>> fc9b568 (v1)
+=======
+.env
+>>>>>>> 77539b9a704138856a84825018df5f97d8c72e0f
 .DS_Store
 .env.local
 .env.development.local

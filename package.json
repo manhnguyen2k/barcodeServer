@@ -8,9 +8,12 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "engines": {
     "node": "16.17.0"
   },
+=======
+>>>>>>> 77539b9a704138856a84825018df5f97d8c72e0f
   "author": "",
   "license": "ISC",
   "dependencies": {
